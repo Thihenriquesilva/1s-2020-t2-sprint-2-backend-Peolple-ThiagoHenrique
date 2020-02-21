@@ -12,7 +12,5 @@ namespace senai.peoples.webapi.Domains
         public string Nome { get; set; }
 
         public string SobreNome { get; set;}
-
-        public DateTime DtNascimento { get; set; }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thi_s\\OneDrive\\Área de Trabalho\\MVC\\senai.peoples.webapi\\senai.peoples.webapi\\senai.peoples.webapi\\senai.peoples.webapi\\senai.peoples.webapi.csproj": {}
+    "C:\\Users\\thi_s\\OneDrive\\Área de Trabalho\\GITHUB\\1s-2020-t2-sprint-2-backend-Peolple\\senai.peoples.webapi\\senai.peoples.webapi\\senai.peoples.webapi\\senai.peoples.webapi\\senai.peoples.webapi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thi_s\\OneDrive\\Área de Trabalho\\MVC\\senai.peoples.webapi\\senai.peoples.webapi\\senai.peoples.webapi\\senai.peoples.webapi\\senai.peoples.webapi.csproj": {
+    "C:\\Users\\thi_s\\OneDrive\\Área de Trabalho\\GITHUB\\1s-2020-t2-sprint-2-backend-Peolple\\senai.peoples.webapi\\senai.peoples.webapi\\senai.peoples.webapi\\senai.peoples.webapi\\senai.peoples.webapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thi_s\\OneDrive\\Área de Trabalho\\MVC\\senai.peoples.webapi\\senai.peoples.webapi\\senai.peoples.webapi\\senai.peoples.webapi\\senai.peoples.webapi.csproj",
+        "projectUniqueName": "C:\\Users\\thi_s\\OneDrive\\Área de Trabalho\\GITHUB\\1s-2020-t2-sprint-2-backend-Peolple\\senai.peoples.webapi\\senai.peoples.webapi\\senai.peoples.webapi\\senai.peoples.webapi\\senai.peoples.webapi.csproj",
         "projectName": "senai.peoples.webapi",
-        "projectPath": "C:\\Users\\thi_s\\OneDrive\\Área de Trabalho\\MVC\\senai.peoples.webapi\\senai.peoples.webapi\\senai.peoples.webapi\\senai.peoples.webapi\\senai.peoples.webapi.csproj",
+        "projectPath": "C:\\Users\\thi_s\\OneDrive\\Área de Trabalho\\GITHUB\\1s-2020-t2-sprint-2-backend-Peolple\\senai.peoples.webapi\\senai.peoples.webapi\\senai.peoples.webapi\\senai.peoples.webapi\\senai.peoples.webapi.csproj",
         "packagesPath": "C:\\Users\\thi_s\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thi_s\\OneDrive\\Área de Trabalho\\MVC\\senai.peoples.webapi\\senai.peoples.webapi\\senai.peoples.webapi\\senai.peoples.webapi\\obj\\",
+        "outputPath": "C:\\Users\\thi_s\\OneDrive\\Área de Trabalho\\GITHUB\\1s-2020-t2-sprint-2-backend-Peolple\\senai.peoples.webapi\\senai.peoples.webapi\\senai.peoples.webapi\\senai.peoples.webapi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

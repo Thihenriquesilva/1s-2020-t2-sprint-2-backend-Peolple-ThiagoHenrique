@@ -14,6 +14,8 @@ namespace senai.peoples.webapi.Interfaces
 
         FuncionariosDomain BuscarPorId(int id);
 
+        FuncionariosDomain BuscarPorNome(string nome);
+
         void AtualizarPorIdCorpo(FuncionariosDomain funcionario);
 
         void AtualizarPorIdUrl(int id, FuncionariosDomain funcionario);

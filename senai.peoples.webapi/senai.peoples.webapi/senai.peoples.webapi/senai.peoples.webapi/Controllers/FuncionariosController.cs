@@ -35,7 +35,7 @@ namespace senai.peoples.webapi.Controllers
             return Ok("Cadastrado com Sucesso");
         }
 
-        [HttpGet("Buscar/{nome}")]
+        [HttpGet("{id}")]
 
         public IActionResult GETPorId(int id)
         {
@@ -49,6 +49,20 @@ namespace senai.peoples.webapi.Controllers
             return Ok(funcBuscado);
 
         }
+
+        [HttpGet("buscar/{nome}")]
+        
+        public IActionResult GETPorNome(string nome)
+        {
+            FuncionariosDomain funcNomeBuscar = _funcRepository.BuscarPorNome(nome);
+
+            if(funcNomeBuscar == null)
+            {
+                return NotFound("Nenhum funcionário foi encontrado");
+            }
+            return Ok(funcNomeBuscar);
+        }
+
 
         [HttpPut]
         public IActionResult AtualizarCorpo(FuncionariosDomain funcionario)

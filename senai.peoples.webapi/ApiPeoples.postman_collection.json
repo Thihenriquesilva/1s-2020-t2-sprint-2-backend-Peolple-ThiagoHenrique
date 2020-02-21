@@ -1,0 +1,168 @@
+{
+	"info": {
+		"_postman_id": "a553c8d4-7f96-474a-972d-c91f7bc182e7",
+		"name": "ApiPeoples",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "PeoplesGET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/Funcionarios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"Funcionarios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PeoplePOST",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"Nome\":\"Luizinho\",\"Sobrenome\":\"Pato\"}"
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/Funcionarios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"Funcionarios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PeopleGETPorID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PeoplePUTAtualizarByCorpo",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"IdFuncionario\":\"2\",\"Nome\":\"Uguinho\",\"Sobrenome\":\"Stark\"}"
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/Funcionarios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"Funcionarios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PeoplePUTAtualizarByIdUrl",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"Nome\":\"Zezinho\",\"Sobrenome\":\"Pato\"}"
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/Funcionarios/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"Funcionarios",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PeopleDELETE",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PeopleGETByName",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/Funcionarios/busca/Catarina",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"Funcionarios",
+						"busca",
+						"Catarina"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
